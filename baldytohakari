@@ -347,7 +347,7 @@ local function onAnimationPlayed(animationTrack)
         end
 
         -- Set a timer to remove the BurnMark effect after 3 seconds (adjustable)
-        local removeTime = 3
+        local removeTime = 1.2
         game:GetService("Debris"):AddItem(burnMarkClone, removeTime)
     end
 end
